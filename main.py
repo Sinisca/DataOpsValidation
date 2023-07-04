@@ -16,7 +16,7 @@ montadoras = pd.DataFrame({
 
 # Criar uma conexão com o MongoDB
 client = MongoClient('mongodb://localhost:27017/')
-database = client['DataOps_Validation']  # Substitua 'nome_do_banco' pelo nome do seu banco de dados
+database = client['DataOps_Validation'] 
 carros_collection = database['Carros']
 montadoras_collection = database['Montadoras']
 
